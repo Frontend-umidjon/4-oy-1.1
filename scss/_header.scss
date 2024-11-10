@@ -10,5 +10,24 @@
     &__title{
         color: #fff;
         font-size: 48px;
+        text-align: center;
     }
+}
+
+@media (max-width: 768px) {
+    
+    .header{
+        &__title{
+            font-size: 36px;
+        }
+    }
+}
+@media (max-width: 480px) {
+
+    .header{
+        &__title{
+            font-size: 24px;
+        }
+    }
+    
 }
